@@ -1,0 +1,69 @@
+/* Container for the profile page */
+.profile-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  /* Removed position: relative to avoid interfering with fixed positioning */
+}
+
+/* Home link in the top right corner */
+.top-bar {
+  position: fixed; /* Ensure it's fixed relative to the viewport */
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensures the link stays on top of other content */
+}
+
+.top-bar .home-link {
+  color: #ffcc00; /* Bright yellow to contrast with blue background */
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.top-bar .home-link:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Heading */
+.profile-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Pie Chart Container */
+.pie-chart-container {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+}
+
+/* Statistics Info */
+.profile-page p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #33a304;
+}
+
+.profile-page p span {
+  font-weight: bold;
+  color: #28a745; /* Green for wins */
+}
+
+.profile-page p.losses {
+  color: rgb(142, 3, 3); /* Red for losses */
+}
+
+.profile-page p.stats-title {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}

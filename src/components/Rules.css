@@ -1,0 +1,88 @@
+.rules-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #6c757d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.rules-page h1 {
+  font-size: 2.5em;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.rules-page h2 {
+  font-size: 1.75em;
+  color: #ffcc00 !important;
+  margin-top: 30px;
+  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+
+.rules-page h3 {
+  font-size: 1.5em;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rules-page p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.rules-page ul {
+  padding-left: 20px;
+}
+
+.rules-page ul li {
+  font-size: 1.1em;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.rules-page ul li::before {
+  content: "• ";
+  color: #ffcc00; /* Banana yellow bullet */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.rules-page p,
+.rules-page ul {
+  margin-bottom: 20px;
+}
+
+.rules-page {
+  background-color: #4b7dad;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rules-page h2 {
+  color: #ff9800; /* Slightly darker banana yellow for subheadings */
+  border-bottom: 2px solid #ffd54f;
+}
+
+.rules-page h3 {
+  color: #ffb74d;
+}
+
+.rules-page p {
+  color: white;
+}
+
+.rules-page ul {
+  list-style-type: disc;
+}

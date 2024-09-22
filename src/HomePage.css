@@ -1,0 +1,91 @@
+/* General styling for the home page */
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: transparent; /* Transparent background to match blue gradient */
+}
+
+/* Profile and How to Play links in the top right */
+.top-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.top-bar a {
+  color: #ffcc00; /* Bright yellow to contrast with the blue gradient */
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.top-bar a:hover {
+  color: #fff; /* Change to white on hover for more contrast */
+}
+
+.home-page h1 {
+  font-size: 3em;
+  color: #bbb808;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Styling */
+.home-page button {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.home-page button:hover {
+  background-color: #ffb400;
+  transform: translateY(-2px);
+}
+
+/* Leaderboard Section */
+.leaderboard {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Semi-transparent white to contrast with the background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard h2 {
+  font-size: 1.75em;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.leaderboard ul li::before {
+  content: "🏆 ";
+}
